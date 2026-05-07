@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dividindo as contas</title>
+  </head>
+  <body>
+    <script>
+      const valorConta = Number(prompt("Valor do pedido R$: "));
+      const cliente = Number(prompt("Quantas pessoas vão pagar? "));
+      const valorCliente = valorConta / cliente;
+      window.alert(
+        `Valor da conta R$: ${valorConta.toFixed(2)}\nNúmero de Clientes: ${cliente}\nValor por cliente R$: ${valorCliente.toFixed(2)}`,
+      );
+    </script>
+  </body>
+</html>
