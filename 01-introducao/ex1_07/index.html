@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cálculo do valor do jantar</title>
+  </head>
+  <body>
+    <script>
+      const jantar = Number(prompt("Valor do jantar R$: "));
+      const garçom = jantar * 0.1;
+      const total = jantar + garçom;
+      window.alert(
+        `Taxa Garçom R$: ${garçom.toFixed(2)}\nTotal R$: ${total.toFixed(2)}`,
+      );
+    </script>
+  </body>
+</html>
