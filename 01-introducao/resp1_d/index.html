@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Média da nota</title>
+  </head>
+  <body>
+    <script>
+      const primeiraNota = Number(prompt("Primeira Nota: "));
+      const segundaNota = Number(prompt("Segunda Nota: "));
+      const total = primeiraNota + segundaNota;
+      const notaMedia = total / 2;
+
+      window.alert(
+        `1° Nota: ${primeiraNota.toFixed(2)} \n 2° Nota: ${segundaNota.toFixed(2)} \nMédia: ${notaMedia}`,
+      );
+    </script>
+  </body>
+</html>
