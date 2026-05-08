@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagamento de produto</title>
+  </head>
+  <body>
+    <script>
+      const precoProduto = Number(prompt("Preço do produto R$: "));
+      const desconto = precoProduto * 0.1;
+      const produtoAvista = precoProduto - desconto;
+      const produtoParcelado = precoProduto / 3;
+
+      window.alert(
+        `Preço R$: ${precoProduto.toFixed(2)} \nÀ Vista R$: ${produtoAvista.toFixed(2)} \nOu 3x de R$: ${produtoParcelado.toFixed(2)}`,
+      );
+    </script>
+  </body>
+</html>
